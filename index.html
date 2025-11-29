@@ -3,29 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comicostor – Horror ya Mtaani</title>
-    <meta name="description" content="Horror comics za mtaani • Tanga• Episode mpya kila Alhamisi usiku">
+    <title>Comicostor</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
         *{margin:0;padding:0;box-sizing:border-box;}
-        body{background:#000;color:#fff;height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;overflow:hidden;}
-        h1{font-family:'Creepster',cursive;font-size:8rem;color:#b30000;text-shadow:0 0 40px #600, 0 0 80px #300;animation:pulse 3s infinite;}
-        p{font-size:1.8rem;margin:30px 0;}
-        .btn{background:#b30000;color:#fff;padding:20px 50px;border-radius:50px;font-size:1.5rem;text-decoration:none;font-weight:bold;box-shadow:0 0 30px #b30000;animation:glow 2s infinite alternate;}
-        footer{position:fixed;bottom:20px;width:100%;text-align:center;font-size:1rem;opacity:0.7;}
-        @keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.05);}}
-        @keyframes glow{from{box-shadow:0 0 20px #b30000;}to{box-shadow:0 0 50px #b30000;}}
+        body{background:#000;color:#fff;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;overflow:hidden;position:relative;}
+        h1{font-family:'Creepster',cursive;font-size:10rem;color:#b30000;text-shadow:0 0 60px #900, 0 0 120px #300;animation:pulse 4s infinite;}
+        .enter{background:#b30000;color:#fff;padding:22px 70px;border-radius:50px;font-size:2rem;text-decoration:none;font-weight:bold;box-shadow:0 0 50px #b30000;animation:glow 2s infinite alternate;transition:0.3s;margin-top:40px;}
+        .enter:hover{transform:scale(1.15);box-shadow:0 0 80px #ff0000;}
+        footer{position:absolute;bottom:20px;width:100%;opacity:0.5;font-size:0.9rem;}
+        @keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.08);}}
+        @keyframes glow{from{box-shadow:0 0 40px #b30000;}to{box-shadow:0 0 90px #ff0000;}}
     </style>
 </head>
 <body>
+
     <h1>COMICOSTOR</h1>
-    <p>Horror ya mtaani • Nairobi 254</p>
-    <p>Episode mpya kila Alhamisi usiku</p>
-    <br><br>
-    <a href="episode01.html" class="btn">SOMA EPISODE 01</a>
+    
+    <a href="episode01.html" class="enter">INGIA</a>
 
     <footer>
-        © 2025 Comicostor • Instagram @comicostor
+        © 2025 Comicostor • Usiku wa Alhamisi ndoto huwa mbaya
     </footer>
+
 </body>
 </html>
